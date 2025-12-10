@@ -86,6 +86,14 @@ Example:
 python OmniFHT/cryodrgn/commands/abinit_homo.py     test_data/4_1_64.mrcs     -b 4     -o runs/4_1_64_demo     -n 201     --checkpoint 100     --lr 0.01     --uninvert-data
 ```
 
+For optical system settings, you can edit it in OmniFHT/cryodrgn/lattace.py line 29-31. 
+
+```
+lambda_ = 0.5328
+RI_ = 1.33
+pixel_size = 5.86 / 40
+```
+
 ---
 
 ## 6. Outputs
